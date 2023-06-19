@@ -194,7 +194,7 @@
 
 #define SWIGLUA
 
-int stringVectorToLuaTable(lua_State* L, std::vector<std::string> & vec);
+int stringVectorToLuaTable(lua_State* L, const std::vector<std::string> & vec);
 
 using namespace od;
 
